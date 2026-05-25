@@ -1,5 +1,40 @@
-const footerHtml = "<!-- ZONE: FOOTER. Edit .footer, .great, .reader, .sun, .verse-ribbon, .verse-text. -->\n    <footer class=\"footer\">\n      <svg class=\"anton-child\">\n        <use href=\"#anton-child\" />\n      </svg>\n      <svg class=\"leaf-c\">\n        <use href=\"#leaf\" />\n      </svg><svg class=\"star-c\">\n        <use href=\"#star\" />\n      </svg>\n      <div class=\"great\">GREAT JOB!</div>\n      <div class=\"reader\">You are a super reader!<svg>\n          <use href=\"#heart\" />\n        </svg></div>\n      <svg class=\"sun\">\n        <use href=\"#sun\" />\n      </svg>\n      <svg class=\"leaf-d\">\n        <use href=\"#leaf\" />\n      </svg><svg class=\"star-d\">\n        <use href=\"#star\" />\n      </svg>\n      <svg class=\"verse-ribbon\" viewBox=\"0 0 590 67\">\n        <path class=\"draw\" d=\"M20 8h550l-40 25 40 25H20l40-25z\" />\n        <path class=\"thin\" d=\"M64 13h465M64 55h465\" />\n      </svg>\n      <svg class=\"verse-leaf-left\">\n        <use href=\"#leaf\" />\n      </svg><svg class=\"verse-leaf-right\">\n        <use href=\"#leaf\" />\n      </svg>\n      <div class=\"verse-text\">“Give thanks to the Lord.”<span class=\"psalm\">Psalm 107:1</span></div>\n    </footer>";
-
-export function PageFooter() {
-  return <div dangerouslySetInnerHTML={{ __html: footerHtml }} />;
+﻿export function PageFooter() {
+  return (
+    <>
+      {/* ZONE: FOOTER. Edit .footer, .great, .reader, .sun, .verse-ribbon, .verse-text. */}
+          <footer className="footer">
+            <svg className="anton-child">
+              <use href="#anton-child" />
+            </svg>
+            <svg className="leaf-c">
+              <use href="#leaf" />
+            </svg><svg className="star-c">
+              <use href="#star" />
+            </svg>
+            <div className="great">GREAT JOB!</div>
+            <div className="reader">You are a super reader!<svg>
+                <use href="#heart" />
+              </svg></div>
+            <svg className="sun">
+              <use href="#sun" />
+            </svg>
+            <svg className="leaf-d">
+              <use href="#leaf" />
+            </svg><svg className="star-d">
+              <use href="#star" />
+            </svg>
+            <svg className="verse-ribbon" viewBox="0 0 590 67">
+              <path className="draw" d="M20 8h550l-40 25 40 25H20l40-25z" />
+              <path className="thin" d="M64 13h465M64 55h465" />
+            </svg>
+            <svg className="verse-leaf-left">
+              <use href="#leaf" />
+            </svg><svg className="verse-leaf-right">
+              <use href="#leaf" />
+            </svg>
+            <div className="verse-text">“Give thanks to the Lord.”<span className="psalm">Psalm 107:1</span></div>
+          </footer>
+    </>
+  );
 }
+
