@@ -6,9 +6,9 @@ import { PageHeader } from './components/PageHeader.jsx';
 import { WorksheetChrome } from './components/WorksheetChrome.jsx';
 
 export function App() {
-  const [refOpacity, setRefOpacity] = useState('0.42');
+  const [refOpacity, setRefOpacity] = useState('0.22');
   const [sheetOpacity, setSheetOpacity] = useState('0.78');
-  const [cardOpacity, setCardOpacity] = useState('0.70');
+  const [cardOpacity, setCardOpacity] = useState('0');
   const [refOn, setRefOn] = useState(true);
   const [gridOn, setGridOn] = useState(false);
   const [zonesOn, setZonesOn] = useState(false);
