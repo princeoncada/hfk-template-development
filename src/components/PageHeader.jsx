@@ -1,5 +1,53 @@
-const headerHtml = "<!-- ZONE: TOP NAME / DATE / BRAND ROW. Edit .header, .name, .date, .brand. -->\n    <div class=\"header\">\n      <div class=\"name\">Name:<span class=\"line\"></span></div>\n      <div class=\"date\">Date:<span class=\"line\"></span></div>\n      <div class=\"brand\">Homeschooling<br>for Kiddos <svg class=\"brand-heart\">\n          <use href=\"#heart\" />\n        </svg></div>\n    </div>\n\n    <!-- ZONE: HERO TITLE AREA. Edit .hero, .anton-ribbon, .hero-title, .subtitle, and hero doodle classes. -->\n    <div class=\"hero\">\n      <svg class=\"anton-ribbon\" viewBox=\"0 0 190 78\">\n        <path class=\"draw\" d=\"M20 18L160 4l-12 27 16 23L22 68l12-24z\" />\n        <path class=\"thin\" d=\"M30 24L146 12M34 60l112-10\" />\n        <text x=\"38\" y=\"50\" transform=\"rotate(-7 92 38)\" font-family=\"Caveat, sans-serif\" font-size=\"42\"\n          font-weight=\"700\" fill=\"#111\">Anton's</text>\n      </svg>\n      <svg class=\"hero-title overflow-visible\" viewBox=\"-35 -24 760 145\" preserveAspectRatio=\"xMidYMid meet\">\n        <!-- Longer curve so the full title has room -->\n        <path id=\"short-o-title-curve\" d=\"M10 88 C190 28 520 28 735 88\" fill=\"none\" />\n\n        <text font-family=\"Caveat, sans-serif\" font-size=\"100\" font-weight=\"700\" fill=\"#fff\" stroke=\"#111\"\n          stroke-width=\"3.1\" stroke-linejoin=\"round\" paint-order=\"stroke\" letter-spacing=\"5.7\">\n          <textPath href=\"#short-o-title-curve\" startOffset=\"50%\" text-anchor=\"middle\">Short O Word Fun!</textPath>\n        </text>\n      </svg>\n      <div class=\"subtitle left-[179px] top-[96px] tracking-[1.8px]\">Let's sound out and read short O words!</div>\n      <svg class=\"abs mag-big\">\n        <use href=\"#magnify\" />\n      </svg>\n      <svg class=\"abs star-a\">\n        <use href=\"#star\" />\n      </svg>\n      <svg class=\"abs leaf-a\">\n        <use href=\"#leaf\" />\n      </svg>\n      <svg class=\"abs leaf-b\">\n        <use href=\"#leaf\" />\n      </svg>\n      <svg class=\"abs star-b\">\n        <use href=\"#star\" />\n      </svg>\n      <svg class=\"abs swirl\">\n        <use href=\"#swirl\" />\n      </svg>\n    </div>";
-
-export function PageHeader() {
-  return <div dangerouslySetInnerHTML={{ __html: headerHtml }} />;
+﻿export function PageHeader() {
+  return (
+    <>
+      {/* ZONE: TOP NAME / DATE / BRAND ROW. Edit .header, .name, .date, .brand. */}
+          <div className="header">
+            <div className="name">Name:<span className="line"></span></div>
+            <div className="date">Date:<span className="line"></span></div>
+            <div className="brand">Homeschooling<br />for Kiddos <svg className="brand-heart">
+                <use href="#heart" />
+              </svg></div>
+          </div>
+      
+          {/* ZONE: HERO TITLE AREA. Edit .hero, .anton-ribbon, .hero-title, .subtitle, and hero doodle classes. */}
+          <div className="hero">
+            <svg className="anton-ribbon" viewBox="0 0 190 78">
+              <path className="draw" d="M20 18L160 4l-12 27 16 23L22 68l12-24z" />
+              <path className="thin" d="M30 24L146 12M34 60l112-10" />
+              <text x="38" y="50" transform="rotate(-7 92 38)" fontFamily="Caveat, sans-serif" fontSize="42"
+                fontWeight="700" fill="#111">Anton's</text>
+            </svg>
+            <svg className="hero-title overflow-visible" viewBox="-35 -24 760 145" preserveAspectRatio="xMidYMid meet">
+              {/* Longer curve so the full title has room */}
+              <path id="short-o-title-curve" d="M10 88 C190 28 520 28 735 88" fill="none" />
+      
+              <text fontFamily="Caveat, sans-serif" fontSize="100" fontWeight="700" fill="#fff" stroke="#111"
+                strokeWidth="3.1" strokeLinejoin="round" paintOrder="stroke" letterSpacing="5.7">
+                <textPath href="#short-o-title-curve" startOffset="50%" textAnchor="middle">Short O Word Fun!</textPath>
+              </text>
+            </svg>
+            <div className="subtitle left-[179px] top-[96px] tracking-[1.8px]">Let's sound out and read short O words!</div>
+            <svg className="abs mag-big">
+              <use href="#magnify" />
+            </svg>
+            <svg className="abs star-a">
+              <use href="#star" />
+            </svg>
+            <svg className="abs leaf-a">
+              <use href="#leaf" />
+            </svg>
+            <svg className="abs leaf-b">
+              <use href="#leaf" />
+            </svg>
+            <svg className="abs star-b">
+              <use href="#star" />
+            </svg>
+            <svg className="abs swirl">
+              <use href="#swirl" />
+            </svg>
+          </div>
+    </>
+  );
 }
+
