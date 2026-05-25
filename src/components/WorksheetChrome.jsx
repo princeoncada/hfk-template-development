@@ -10,14 +10,14 @@
           <img className="reference-underlay" src="/reference.jpg" alt="Reference worksheet underlay" />
       
           {/* Optional zone overlays. Toggle with the toolbar or press Z. */}
-          <div className="zone-outline left-[28px] top-[34px] w-[760px] h-[134px]"><span>hero</span></div>
-          <div className="zone-outline left-[37px] top-[183px] w-[370px] h-[242px]"><span>activity 1</span></div>
-          <div className="zone-outline left-[419px] top-[183px] w-[360px] h-[242px]"><span>activity 2</span></div>
-          <div className="zone-outline left-[37px] top-[444px] w-[370px] h-[236px]"><span>activity 3</span></div>
-          <div className="zone-outline left-[419px] top-[444px] w-[360px] h-[236px]"><span>activity 4</span></div>
-          <div className="zone-outline left-[37px] top-[696px] w-[570px] h-[198px]"><span>activity 5</span></div>
-          <div className="zone-outline left-[620px] top-[696px] w-[159px] h-[198px]"><span>parent</span></div>
-          <div className="zone-outline left-[31px] top-[887px] w-[754px] h-[156px]"><span>footer</span></div>
+          <div className="zone-outline left-7 top-8.5 w-190 h-33.5"><span>hero</span></div>
+          <div className="zone-outline left-9.25 top-45.75 w-92.5 h-60.5"><span>activity 1</span></div>
+          <div className="zone-outline left-104.75 top-45.75 w-90 h-60.5"><span>activity 2</span></div>
+          <div className="zone-outline left-9.25 top-111 w-92.5 h-59"><span>activity 3</span></div>
+          <div className="zone-outline left-104.75 top-111 w-90 h-59"><span>activity 4</span></div>
+          <div className="zone-outline left-9.25 top-174 w-142.5 h-49.5"><span>activity 5</span></div>
+          <div className="zone-outline left-155 top-174 w-39.75 h-49.5"><span>parent</span></div>
+          <div className="zone-outline left-7.75 top-221.75 w-188.5 h-39"><span>footer</span></div>
           <svg className="defs" aria-hidden="true">
             <symbol id="star" viewBox="0 0 40 40">
               <path className="draw" d="M20 3l4.9 11.1 12.1 1.2-9.1 8.1 2.7 11.8L20 29.1 9.4 35.2l2.7-11.8-9.1-8.1 12.1-1.2z" />
