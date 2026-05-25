@@ -5,7 +5,7 @@
           <div className="header">
             <div className="name top-1.5 -left-1">Name:<span className="line w-57"></span></div>
             <div className="date top-1.5 left-81">Date:<span className="line w-44"></span></div>
-            <div className="brand text-[20px]">Homeschooling<br />for Kiddos <svg className="brand-heart">
+            <div className="brand text-xl">Homeschooling<br />for Kiddos <svg className="brand-heart">
                 <use href="#heart" />
               </svg></div>
           </div>
@@ -16,7 +16,7 @@
               <path className="draw" d="M20 18L160 4l-12 27 16 23L22 68l12-24z" />
               <path className="thin" d="M30 24L146 12M34 60l112-10" />
               <text x="33" y="50" transform="rotate(-7 92 38)" fontFamily="Caveat, sans-serif" fontSize="42"
-                fontWeight="700" fill="#111">Anton's</text>
+                fontWeight="700" fill="#111">Anton&apos;s</text>
             </svg>
             <svg className="hero-title overflow-visible rotate-2" viewBox="-35 -24 760 145" preserveAspectRatio="xMidYMid meet">
               {/* Longer curve so the full title has room */}
@@ -27,7 +27,7 @@
                 <textPath href="#short-o-title-curve" startOffset="50%" textAnchor="middle">Short O Word Fun!</textPath>
               </text>
             </svg>
-            <div className="subtitle left-[179px] top-[96px] tracking-[1.6px]">Let's sound out and read short O words!</div>
+            <div className="subtitle left-44.75 top-24 tracking-[1.6px]">Let&apos;s sound out and read short O words!</div>
             <svg className="abs mag-big size-20 top-14 left-13 -rotate-3">
               <use href="#magnify" />
             </svg>
