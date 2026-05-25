@@ -2,8 +2,8 @@ export function TinyChallengeActivity() {
   return (
     <>
       {/* ZONE: ACTIVITY 5 + SAY THE SOUNDS. Edit .bottom-card, .tiny-text, .draw-box, .sound-divider, .sounds. */}
-                <section className="card bottom-card top-[728px] h-[168px] left-[30px] w-[572px]">
-                  <div className="label top-[-13px] left-1">
+                <section className="card bottom-card top-182 h-42 left-7.5 w-143">
+                  <div className="label -top-3.25 left-1">
                     <div className="num-tab"><svg viewBox="0 0 58 36">
                         <path className="white" d="M2 2H43L56 18 43 34H2Q8 18 2 2Z" />
                       </svg><span>5</span></div>
