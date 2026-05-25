@@ -2,14 +2,14 @@ export function BeginningConsonantActivity() {
   return (
     <>
       {/* ZONE: ACTIVITY 2, CIRCLE THE BEGINNING CONSONANT. Edit .c2, .letters-row, .letter positions. */}
-                <section className="card c2 top-[189px] h-[264px] left-[418px] w-[370px]">
-                  <div className="label top-[-16px] left-1">
+                <section className="card c2 top-47.25 h-66 left-104.5 w-92.5">
+                  <div className="label -top-4 left-1">
                     <div className="num-tab"><svg viewBox="0 0 58 36">
                         <path className="white" d="M2 2H43L56 18 43 34H2Q8 18 2 2Z" />
                       </svg><span>2</span></div>
                     <div className="label-title tracking-tight">CIRCLE THE BEGINNING CONSONANT</div>
                   </div>
-                  <div className="subtext absolute left-[25px] top-[38px] w-[310px] text-center text-[16.5px] leading-[1.05] whitespace-nowrap">
+                  <div className="subtext absolute left-6.25 top-9.5 w-77.5 text-center text-[16.5px] leading-[1.05] whitespace-nowrap">
                     Circle the beginning consonant in each word.</div>
                   <div className="letters-row lr1"><svg className="pic">
                       <use href="#dog" />
