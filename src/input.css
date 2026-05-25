@@ -80,7 +80,7 @@
    PAGE CANVAS AND BORDERS
   ***************************************************************************/
   .sheet {
-    @apply relative w-[816px] h-[1056px] bg-white overflow-hidden text-[#111];
+    @apply relative w-[816px] h-[1059px] bg-white overflow-hidden text-[#111];
   }
 
   .outer-border {
@@ -88,7 +88,7 @@
   }
 
   .inner-border {
-    @apply absolute inset-[14px] border-[1.6px] border-dashed border-[#111] rounded-[14px] pointer-events-none;
+    @apply absolute inset-[12px] border-[1.6px] border-dashed border-[#111] rounded-[14px] pointer-events-none;
   }
 
   .defs { @apply absolute w-0 h-0 overflow-hidden; }
