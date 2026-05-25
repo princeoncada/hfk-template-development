@@ -2,8 +2,8 @@ export function TraceWordsActivity() {
   return (
     <>
       {/* ZONE: ACTIVITY 1, TRACE THE WORDS. Edit .c1, .trace-row, .trace-word. */}
-                <section className="card c1 top-[188px] h-66 left-[30px] w-[373px]">
-                  <div className="label top-[-15px] left-1">
+                <section className="card c1 top-47 h-66 left-7.5 w-93.25">
+                  <div className="label -top-3.75 left-1">
                     <div className="num-tab"><svg viewBox="0 0 58 36">
                         <path className="white" d="M2 2H43L56 18 43 34H2Q8 18 2 2Z" />
                       </svg><span>1</span></div>
