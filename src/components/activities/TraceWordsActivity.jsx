@@ -10,36 +10,36 @@ export function TraceWordsActivity() {
           <div className="label-title">TRACE THE WORDS</div>
         </div>
         <div className="trace-row r1">
-          <svg className="pic">
+          <svg className="pic top-[-18px] left-[-4px]">
             <use href="#dog" />
           </svg>
           <svg className="trace-word" viewBox="0 0 220 68">
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="18" x2="210" y2="18" />
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="52" x2="210" y2="52" />
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="9" x2="210" y2="9" />
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="50" x2="210" y2="50" />
             {/* <path className="trace-path" fill="none" stroke="#111" strokeWidth="2.05" strokeLinecap="round"
               strokeLinejoin="round" strokeDasharray="1.5 5"
               d="M63 6v51 M63 38c0-16-28-16-28 0s28 16 28 0 M92 38c0-16 28-16 28 0s-28 16-28 0 M155 38c0-16 29-16 29 0s-29 16-29 0 M184 25v38c0 14-22 15-28 4" /> */}
           </svg>
         </div>
         <div className="trace-row r2">
-          <svg className="pic">
+          <svg className="pic top-[1px] left-[-3px]">
             <use href="#log" />
           </svg>
-          <svg className="trace-word" viewBox="0 0 220 68">
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="18" x2="210" y2="18" />
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="52" x2="210" y2="52" />
+          <svg className="trace-word top-[6px]" viewBox="0 0 220 68">
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="9" x2="210" y2="9" />
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="50" x2="210" y2="50" />
             {/* <path className="trace-path" fill="none" stroke="#111" strokeWidth="2.05" strokeLinecap="round"
               strokeLinejoin="round" strokeDasharray="1.5 5"
               d="M34 6v51 M80 38c0-16 28-16 28 0s-28 16-28 0 M142 38c0-16 29-16 29 0s-29 16-29 0 M171 25v38c0 14-22 15-28 4" /> */}
           </svg>
         </div>
         <div className="trace-row r3">
-          <svg className="pic">
+          <svg className="pic top-[10px] left-[-7px]">
             <use href="#mop" />
           </svg>
-          <svg className="trace-word" viewBox="0 0 220 68">
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="18" x2="210" y2="18" />
-            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="52" x2="210" y2="52" />
+          <svg className="trace-word top-[20px]" viewBox="0 0 220 68">
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="9" x2="210" y2="9" />
+            <line className="trace-guide" stroke="#888" strokeWidth="1" x1="0" y1="50" x2="210" y2="50" />
             {/* <path className="trace-path" fill="none" stroke="#111" strokeWidth="2.05" strokeLinecap="round"
               strokeLinejoin="round" strokeDasharray="1.5 5"
               d="M25 57V26c0-16 25-16 25 4v27 M50 31c6-20 32-12 32 10v16 M113 38c0-16 28-16 28 0s-28 16-28 0 M171 63V25 M171 38c0-16 28-16 28 0s-28 16-28 0" /> */}
