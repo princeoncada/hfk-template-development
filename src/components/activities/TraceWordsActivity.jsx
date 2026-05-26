@@ -34,7 +34,7 @@ export function TraceWordsActivity() {
           </svg>
         </div>
         <div className="trace-row r3">
-          <svg className="pic top-[10px] left-[-7px]">
+          <svg className="pic top-[4px] left-[-12px] rotate-7 size-20">
             <use href="#mop" />
           </svg>
           <svg className="trace-word top-[20px]" viewBox="0 0 220 68">
