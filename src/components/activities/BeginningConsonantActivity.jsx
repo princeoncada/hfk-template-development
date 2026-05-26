@@ -28,7 +28,7 @@ export function BeginningConsonantActivity() {
           <span className="letter l3 left-[263px]">g</span>
         </div>
         <div className="letters-row lr3">
-          <svg className="pic left-[-8px] top-[-6px]">
+          <svg className="pic left-[-6px] top-[-7px] rotate-7 size-18">
             <use href="#mop" />
           </svg>
           <span className="letter l1 top-[13px] left-[115px]">m</span>
