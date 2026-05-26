@@ -9,19 +9,31 @@ export function ReadingCheckActivity() {
           </svg><span>4</span></div>
           <div className="label-title">READING CHECK</div>
         </div>
-        <div className="check-desc">Check (✓) if the sentence is true.</div>
-        <div className="check-row cr1"><span className="checkbox"></span><span className="sentence">“dog” has 3 letters.</span><svg
-          className="mini">
-          <use href="#dog" />
-        </svg></div>
-        <div className="check-row cr2"><span className="checkbox"></span><span className="sentence">“log” is a CVC word.</span><svg
-          className="mini">
-          <use href="#log" />
-        </svg></div>
-        <div className="check-row cr3"><span className="checkbox"></span><span className="sentence">“mop” has 3 letters.</span><svg
-          className="mini">
-          <use href="#mop" />
-        </svg></div>
+        <div className="check-desc top-[26px] tracking-[1.4px]">Check (✓) if the sentence is true.</div>
+        <div className="check-row cr1 top-[70px] left-[20px]">
+          <span className="checkbox size-5.5"></span>
+          <span className="sentence tracking-[1px]">“dog” has 3 letters.</span>
+          <svg
+            className="mini absolute right-[-25px] top-[-35px] size-18">
+            <use href="#dog" />
+          </svg>
+        </div>
+        <div className="check-row cr2 top-[127px] left-[20px]">
+          <span className="checkbox size-5.5"></span>
+          <span className="sentence tracking-[1px]">“log” is a CVC word.</span>
+          <svg
+            className="mini absolute right-[-30px] top-[-26px] size-18">
+            <use href="#log" />
+          </svg>
+        </div>
+        <div className="check-row cr3 top-[180px] left-[20px]">
+          <span className="checkbox size-5.5"></span>
+          <span className="sentence tracking-[1px]">“mop” has 3 letters.</span>
+          <svg
+            className="mini absolute right-[-21.5px] top-[-21px] size-15 rotate-7">
+            <use href="#mop" />
+          </svg>
+        </div>
       </section>
     </>
   );
